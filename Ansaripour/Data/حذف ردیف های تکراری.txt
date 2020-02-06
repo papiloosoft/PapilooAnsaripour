@@ -1,0 +1,5 @@
+Delete Repair_Total
+where  Repair_Id not in 
+(select min(Repair_Id)
+from Repair_Total
+group by Repair_Name,Repair_Code)

@@ -1,0 +1,32 @@
+DBCC CHECKIDENT ('[Repair_Total]', RESEED, 0);
+GO
+
+
+DBCC CHECKIDENT ('[ST_Stock_Refrence]', RESEED, 0);
+GO
+
+
+
+DBCC CHECKIDENT ('[ST_Stock_Details]', RESEED, 0);
+GO
+
+DBCC CHECKIDENT ('[Accounting_Account]', RESEED, 0);
+GO
+DBCC CHECKIDENT ('[Accounting_Details]', RESEED, 0);
+Go
+DBCC CHECKIDENT ('[Accounting_Header]', RESEED, 0);
+GO
+DBCC CHECKIDENT ('[Accounting_Relation]',RESEED, 0);
+GO
+
+
+
+ÈÑÑÓí Ê˜ÑÇÑí ÈæÏä
+SELECT
+    Ch_ID, COUNT(*)
+FROM
+    Ch_t
+GROUP BY
+   Ch_ID
+HAVING
+    COUNT(*) > 1  

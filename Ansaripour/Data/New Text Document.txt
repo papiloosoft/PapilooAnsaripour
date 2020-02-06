@@ -1,0 +1,54 @@
+USE [Amval]
+GO
+
+/****** Object:  Table [dbo].[Order_Add]    Script Date: 07/17/2019 02:59:31 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Order_Add]') AND type in (N'U'))
+DROP TABLE [dbo].[Order_Add]
+GO
+
+USE [Amval]
+GO
+
+/****** Object:  Table [dbo].[Order_Add]    Script Date: 07/17/2019 02:59:31 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Order_Add](
+	[Order_Id] [int] IDENTITY(1,1) NOT NULL,
+	[Order_Date] [nvarchar](8) NOT NULL,
+	[Order_Time] [nvarchar](50) NOT NULL,
+	[Order_Subscription_Id] [int] NOT NULL,
+	[Order_In_Description] [nvarchar](255) NOT NULL,
+	[Order_Description] [nvarchar](255) NOT NULL,
+	[id_user] [nvarchar](5) NOT NULL
+) ON [PRIMARY]
+
+GO
+USE [Amval]
+GO
+
+/****** Object:  Table [dbo].[Order_Add_Service]    Script Date: 07/17/2019 02:59:50 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Order_Add_Service](
+	[Order_Service_Id] [int] IDENTITY(1,1) NOT NULL,
+	[Id_Order_Add] [int] NOT NULL,
+	[Order_Service_Information] [int] NOT NULL,
+	[Order_Service_Row] [int] NOT NULL,
+	[Order_Service_Active] [int] NOT NULL,
+	[Order_Service_Description] [nvarchar](255) NOT NULL,
+	[Order_Service_Rollback] [nvarchar](8) NOT NULL,
+	[Order_Service_Class] [nvarchar](50) NOT NULL
+) ON [PRIMARY]
+
+GO
+
+
+
