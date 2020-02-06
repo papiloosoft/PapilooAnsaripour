@@ -1,0 +1,1 @@
+Select * from Accounting_Account where Acc_level in (select B.Relation_Detailed from Accounting_Account A left join Accounting_Relation B on A.Acc_Id=B.Relation_Account where B.Relation_Detailed IS NOT NULL and B.Relation_Account='9')

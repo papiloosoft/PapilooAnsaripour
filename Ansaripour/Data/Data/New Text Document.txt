@@ -1,0 +1,9 @@
+USE master
+
+
+
+RESTORE DATABASE [Amval] FROM DISK='E:\AMA\Ansaripour\Data\Data\a.bak'
+
+
+
+WITH replace

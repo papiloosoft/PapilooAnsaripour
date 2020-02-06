@@ -1,0 +1,9 @@
+C:\Users\Amir\Desktop\AnsaripourC#\Ansaripour\Ansaripour\bin\Debug\Ansaripour.exe.config
+C:\Users\Amir\Desktop\AnsaripourC#\Ansaripour\Ansaripour\bin\Debug\Ansaripour.exe
+C:\Users\Amir\Desktop\AnsaripourC#\Ansaripour\Ansaripour\bin\Debug\Ansaripour.pdb
+C:\Users\Amir\Desktop\AnsaripourC#\Ansaripour\Ansaripour\obj\Debug\Ansaripour.csprojResolveAssemblyReference.cache
+C:\Users\Amir\Desktop\AnsaripourC#\Ansaripour\Ansaripour\obj\Debug\Ansaripour.LoginForm.resources
+C:\Users\Amir\Desktop\AnsaripourC#\Ansaripour\Ansaripour\obj\Debug\Ansaripour.Properties.Resources.resources
+C:\Users\Amir\Desktop\AnsaripourC#\Ansaripour\Ansaripour\obj\Debug\Ansaripour.csproj.GenerateResource.Cache
+C:\Users\Amir\Desktop\AnsaripourC#\Ansaripour\Ansaripour\obj\Debug\Ansaripour.exe
+C:\Users\Amir\Desktop\AnsaripourC#\Ansaripour\Ansaripour\obj\Debug\Ansaripour.pdb
