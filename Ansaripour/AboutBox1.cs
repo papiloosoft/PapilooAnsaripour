@@ -24,19 +24,20 @@ namespace Ansaripour
 		}
 		private void Button1_Click(System.Object sender, System.EventArgs e)
 		{
-			if (TextBox1.Text == "6a5m6a2" + NumericHelper.Val(HDDSerialL.SerialNumber().ToString().Replace("-", "")) - 999999)
+            MDIParent1 mdiparent = new MDIParent1();
+            if (TextBox1.Text == "6a5m6a2" + (NumericHelper.Val(HDDSerialL.SerialNumber().ToString().Replace("-","")) - 999999).ToString())
 			{
 				//قانونی کردن برنامه
 				DataSet update = data.PDataset("UPDATE  R_S  SET   D_R='" + (NumericHelper.Val(HDDSerialL.SerialNumber().ToString().Replace("-", "")) + 131113581117) + "'");
-				modMessage.ShowMessage("کاربر محترم" + " :" + MDIParent1.DefaultInstance.I_N.Text, "سیستم با تمام امکانات در اختیار شماست", frmMessage.mIcon.munlock, frmMessage.mButtons.mAccept);
+				modMessage.ShowMessage("کاربر محترم" + " :" + mdiparent.I_N.Text, "سیستم با تمام امکانات در اختیار شماست", frmMessage.mIcon.munlock, frmMessage.mButtons.mAccept);
 				this.Close();
-				MDIParent1.DefaultInstance.Today_Date.Text = data.today();
-				MDIParent1.DefaultInstance.Information.Text = "<---------------------------->" + "(( برنامه مکانیزه الماس بصورت قانونی فعال شده است و کلیه امکانات در اختیار کاربر می باشد ))";
-				MDIParent1.DefaultInstance.System_Activation_Menu.Visible = false;
+                mdiparent.Today_Date.Text = data.today();
+                mdiparent.Information.Text = "<---------------------------->" + "(( برنامه مکانیزه الماس بصورت قانونی فعال شده است و کلیه امکانات در اختیار کاربر می باشد ))";
+                mdiparent.System_Activation_Menu.Visible = false;
 			}
 			else
 			{
-				modMessage.ShowMessage("کاربر محترم" + " :" + MDIParent1.DefaultInstance.I_N.Text, "در وارد کردن کد سیستم خود دقت نمائید ", frmMessage.mIcon.mlock, frmMessage.mButtons.mAccept);
+				modMessage.ShowMessage("کاربر محترم" + " :" + mdiparent.I_N.Text, "در وارد کردن کد سیستم خود دقت نمائید ", frmMessage.mIcon.mlock, frmMessage.mButtons.mAccept);
 			}
 		}
 	}
