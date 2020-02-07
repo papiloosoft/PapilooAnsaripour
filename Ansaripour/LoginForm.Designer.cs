@@ -69,6 +69,7 @@
             this.Cancel.Size = new System.Drawing.Size(73, 23);
             this.Cancel.TabIndex = 3;
             this.Cancel.Text = "انصراف";
+            this.Cancel.Click += new System.EventHandler(this.Cancel_Click);
             // 
             // Check_Pass
             // 
@@ -112,6 +113,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LoginForm";
             this.Load += new System.EventHandler(this.LoginForm_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.LoginForm_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.P_Pic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

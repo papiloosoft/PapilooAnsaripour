@@ -65,12 +65,42 @@ namespace Ansaripour
         }
         private void OK_Click(object sender, EventArgs e)
         {
-
+            if (UsernameTextBox.Text.Length == 0)
+                UsernameTextBox.Focus();
+            //-----
+            if (PasswordTextBox.Text.Length == 0)
+                PasswordTextBox.Focus();
+            //-----
+            if (UsernameTextBox.Text == "Admin" && PasswordTextBox.Text == "1311")
+                this.Hide();
+            MDIParent1.ID.Text = "1311";
+            MDIParent1.I_N.Text = "مدیر سیستم";
+            MDIParent1.N_Id_Area.Text = "مرکزی";
+            MDIParent1.N_Company_Area.Text = "بدون تمرکز";
+            MDIParent1.N_Admin.Text = "True";
+            MDIParent1.Description.Text = "";
         }
 
         private void LoginForm_Load(object sender, EventArgs e)
         {
+            // تغییر زبان صفحه کلید به فارس
+            locInputType = new System.Globalization.CultureInfo("FA-IR");
+            Application.CurrentInputLanguage = InputLanguage.FromCulture(locInputType);
+            Test_Conection();
+            UsernameTextBox.TextAlign = HorizontalAlignment.Left;
+            UsernameTextBox.AutoCompleteMode = AutoCompleteMode.UsernameTextBox.AutoCompleteSource = AutoCompleteSource.CustomSource;
+            AutocomplateCustomSource();
+        }
 
+        private void Cancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void LoginForm_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+                SendKeys.Send("{TAB}");
         }
     }
 }
