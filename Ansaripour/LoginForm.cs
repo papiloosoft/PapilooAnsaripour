@@ -26,11 +26,11 @@ namespace Ansaripour
                     if (!IsDBNull(Dr[0]))
                     {
                         string[] dtVal;
-                        dtVal = Dr["Host_String"].Split('/');
+                        dtVal = Dr["Host_String"].ToString().Split('/');
                         Check_Pass.Checked = dtVal[2];
                         if ((dtVal[2] ?? "") == "True")
                         {
-                            UsernameTextBox.Text = Dr["username"];
+                            UsernameTextBox.Text = Dr["username"].ToString();
                             Host = Dr["username"];
                             DataSet serch = data.PDataset("select * from Pictures where Name_Data_Picture=N'" + dtVal[0] + "' and Id_Data_Picture=N'" + dtVal[1] + "'");
                             foreach (DataRow Drr in serch.Tables(0).Rows)
@@ -44,18 +44,31 @@ namespace Ansaripour
             }
             catch (System.Data.SqlClient.SqlException ex)
             {
-                MessageBox.Show("اشکال در اتصال با بانک اطلاعاتی", ex.Message , MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("اشکال در اتصال با بانک اطلاعاتی", ex.Message, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 this.Close();
             }
             catch (Exception ex)
             {
-                MessageBox.Show("مشکل در اجرای برنامه", "مدیر سیستم را مطلع سازید",MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("مشکل در اجرای برنامه", "مدیر سیستم را مطلع سازید", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             finally
             {
             }
         }
+        private void AutocomplateCustomSource()
+        {
+            DataSet test = data.PDataset("Select username From Security_Users ");
+            foreach (DataRow Dr in test.Tables[0].Rows)
+            {
+                UsernameTextBox.AutoCompleteCustomSource.Add(Dr["USERNAME"].ToString());
+            }
+        }
         private void OK_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LoginForm_Load(object sender, EventArgs e)
         {
 
         }
