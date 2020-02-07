@@ -1,26 +1,34 @@
-﻿using System.Reflection;
-using System.Runtime.CompilerServices;
+﻿//INSTANT C# NOTE: Formerly VB project-level imports:
+using System.Collections;
+using System.Collections.Generic;
+using System.Data;
+using System.Drawing;
+using System.Diagnostics;
+using System.Windows.Forms;
+using System.Linq;
+using System.Xml.Linq;
+
+using System;
+using System.Reflection;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
+
+// Review the values of the assembly attributes
+
 [assembly: AssemblyTitle("Ansaripour")]
 [assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Ansaripour")]
-[assembly: AssemblyCopyright("Copyright ©  2020")]
+[assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
 
-// Setting ComVisible to false makes the types in this assembly not visible 
-// to COM components.  If you need to access a type in this assembly from 
-// COM, set the ComVisible attribute to true on that type.
 [assembly: ComVisible(false)]
 
-// The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("d6195111-7a76-4c6c-aafa-274ce3f92103")]
+//The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("0113bcc0-671a-49d5-b637-2a2a7ca20827")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -31,6 +39,7 @@ using System.Runtime.InteropServices;
 //
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
-// [assembly: AssemblyVersion("1.0.*")]
+// <Assembly: AssemblyVersion("1.0.*")> 
+
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
