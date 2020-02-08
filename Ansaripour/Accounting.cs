@@ -1,11 +1,4 @@
-﻿//====================================================================================================
-//The Free Edition of Instant C# limits conversion output to 100 lines per file.
-
-//To purchase the Premium Edition, visit our website:
-//https://www.tangiblesoftwaresolutions.com/order/order-instant-csharp.html
-//====================================================================================================
-
-//INSTANT C# NOTE: Formerly VB project-level imports:
+﻿
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -75,6 +68,7 @@ namespace Ansaripour
         }
         private void Log_Save()
         {
+            MDIParent1 mdiparent = new MDIParent1();
             f_serch = "";
             f_serch += "INSERT INTO Log_File (Log_Process,Log_Table,Log_Date, Log_Time, Log_Operation,Log_Details,Log_User_Id)";
             f_serch += "VALUES  (N'" + Id_Refrence + "',";
@@ -83,7 +77,7 @@ namespace Ansaripour
             f_serch += "N'" + DateTime.Now.ToString("hh:mm:ss tt") + "',";
             f_serch += "N'" + log + "',";
             f_serch += "N'" + Log_Details + "',";
-            f_serch += "N'" + MDIParent1.DefaultInstance.ID.Text + "')";
+            f_serch += "N'" + mdiparent.ID.Text + "')";
             DataSet Save_log = data.PDataset("" + f_serch + "");
         }
         private void Accounting_Load(object sender, System.EventArgs e)

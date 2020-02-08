@@ -1,10 +1,4 @@
-﻿//----------------------------------------------------------------------------------------
-//	Copyright © 2003 - 2020 Tangible Software Solutions, Inc.
-//	This class can be used by anyone provided that the copyright notice remains intact.
-//
-//	The methods in this class replicate the behavior of IsNumeric and Val.
-//----------------------------------------------------------------------------------------
-using System;
+﻿using System;
 using System.Globalization;
 
 public static class NumericHelper

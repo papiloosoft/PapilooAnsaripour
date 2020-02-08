@@ -1,11 +1,4 @@
-﻿//====================================================================================================
-//The Free Edition of Instant C# limits conversion output to 100 lines per file.
-
-//To purchase the Premium Edition, visit our website:
-//https://www.tangiblesoftwaresolutions.com/order/order-instant-csharp.html
-//====================================================================================================
-
-//INSTANT C# NOTE: Formerly VB project-level imports:
+﻿
 using System;
 using System.Collections;
 using System.Collections.Generic;
