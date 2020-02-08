@@ -141,15 +141,180 @@ namespace Ansaripour
 			this.CTi.TabIndex = 70;
 			this.CTi.Text = "الگوی حساب :";
 			this.CTi.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			//
-			//Code_Hesab
-			//
-			this.Code_Hesab.BackColor = System.Drawing.Color.White;
-			this.Code_Hesab.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)177);
+            //
+            //Code_Hesab
+            //
+            this.Code_Hesab.BackColor = System.Drawing.Color.White;
+            this.Code_Hesab.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)177);
+            this.Code_Hesab.Location = new System.Drawing.Point(191, 47);
+            this.Code_Hesab.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.Code_Hesab.Name = "Code_Hesab";
+            this.Code_Hesab.Size = new System.Drawing.Size(262, 30);
+            this.Code_Hesab.TabIndex = 69;
+            //
+            //BTi
+            //
+            this.BTi.AutoEllipsis = true;
+            this.BTi.ForeColor = System.Drawing.Color.Blue;
+            this.BTi.Location = new System.Drawing.Point(70, 11);
+            this.BTi.Name = "BTi";
+            this.BTi.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.BTi.Size = new System.Drawing.Size(115, 19);
+            this.BTi.TabIndex = 68;
+            this.BTi.Text = "شرح حساب :";
+            this.BTi.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            //
+            //Name_Hesab
+            //
+            this.Name_Hesab.BackColor = System.Drawing.Color.White;
+            this.Name_Hesab.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)177);
+            this.Name_Hesab.Location = new System.Drawing.Point(191, 7);
+            this.Name_Hesab.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.Name_Hesab.Name = "Name_Hesab";
+            this.Name_Hesab.Size = new System.Drawing.Size(373, 30);
+            this.Name_Hesab.TabIndex = 67;
+            //
+            //Dv
+            //
+            DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            DataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            DataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.0F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)178);
+            DataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            DataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            DataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Dv.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle3;
+            this.Dv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            DataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
+            DataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.0F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)178);
+            DataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
+            DataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.Dv.DefaultCellStyle = DataGridViewCellStyle4;
+            this.Dv.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
+            this.Dv.Location = new System.Drawing.Point(4, 82);
+            this.Dv.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Dv.Name = "Dv";
+            this.Dv.Size = new System.Drawing.Size(560, 214);
+            this.Dv.TabIndex = 72;
+            //
+            //Label2
+            //
+            this.Label2.AutoEllipsis = true;
+            this.Label2.ForeColor = System.Drawing.Color.Blue;
+            this.Label2.Location = new System.Drawing.Point(409, 303);
+            this.Label2.Name = "Label2";
+            this.Label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.Label2.Size = new System.Drawing.Size(66, 19);
+            this.Label2.TabIndex = 73;
+            this.Label2.Text = "یافته ها :";
+            this.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            //
+            //Id_Code
+            //
+            this.Id_Code.AutoEllipsis = true;
+            this.Id_Code.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)178);
+            this.Id_Code.ForeColor = System.Drawing.Color.Red;
+            this.Id_Code.Location = new System.Drawing.Point(476, 302);
+            this.Id_Code.Name = "Id_Code";
+            this.Id_Code.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.Id_Code.Size = new System.Drawing.Size(81, 19);
+            this.Id_Code.TabIndex = 74;
+            this.Id_Code.Text = "0";
+            this.Id_Code.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            //
+            //Label1
+            //
+            this.Label1.AutoEllipsis = true;
+            this.Label1.ForeColor = System.Drawing.Color.Blue;
+            this.Label1.Location = new System.Drawing.Point(174, 12);
+            this.Label1.Name = "Label1";
+            this.Label1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.Label1.Size = new System.Drawing.Size(14, 19);
+            this.Label1.TabIndex = 75;
+            this.Label1.Text = ":";
+            this.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            //
+            //Label3
+            //
+            this.Label3.AutoEllipsis = true;
+            this.Label3.ForeColor = System.Drawing.Color.Blue;
+            this.Label3.Location = new System.Drawing.Point(175, 53);
+            this.Label3.Name = "Label3";
+            this.Label3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.Label3.Size = new System.Drawing.Size(14, 19);
+            this.Label3.TabIndex = 76;
+            this.Label3.Text = ":";
+            this.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            //
+            //button_02
+            //
+            this.button_02.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.button_02.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
+            this.button_02.Font = new System.Drawing.Font("Tahoma", 12.0F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)0);
+            this.button_02.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_02.ImageIndex = 0;
+            this.button_02.Location = new System.Drawing.Point(102, 298);
+            this.button_02.Name = "button_02";
+            this.button_02.Size = new System.Drawing.Size(100, 28);
+            this.button_02.TabIndex = 77;
+            this.button_02.Text = "نمایش کلی";
+            this.button_02.UseVisualStyleBackColor = false;
+            //
+            //Accounting_Serch
+            //
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6.0F, 13.0F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.ClientSize = new System.Drawing.Size(569, 328);
+            this.ControlBox = false;
+            this.Controls.Add(this.button_02);
+            this.Controls.Add(this.Label3);
+            this.Controls.Add(this.Label1);
+            this.Controls.Add(this.Id_Code);
+            this.Controls.Add(this.Label2);
+            this.Controls.Add(this.Dv);
+            this.Controls.Add(this.B_Serch);
+            this.Controls.Add(this.CTi);
+            this.Controls.Add(this.Code_Hesab);
+            this.Controls.Add(this.BTi);
+            this.Controls.Add(this.Name_Hesab);
+            this.Controls.Add(this.button_04);
+            this.Controls.Add(this.button_03);
+            this.Controls.Add(this.button_01);
+            this.Controls.Add(this.picIcon);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "Accounting_Serch";
+            this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.RightToLeftLayout = true;
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "frmMessage";
+            ((System.ComponentModel.ISupportInitialize)this.picIcon).EndInit();
+            ((System.ComponentModel.ISupportInitialize)this.Dv).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
-//====================================================================================================
-//End of the allowed output for the Free Edition of Instant C#.
-
-//To purchase the Premium Edition, visit our website:
-//https://www.tangiblesoftwaresolutions.com/order/order-instant-csharp.html
-//====================================================================================================
+        }
+        internal System.Windows.Forms.Button button_04;
+        internal System.Windows.Forms.Button button_03;
+        internal System.Windows.Forms.Button button_01;
+        internal System.Windows.Forms.PictureBox picIcon;
+        internal System.Windows.Forms.Button B_Serch;
+        internal System.Windows.Forms.Label CTi;
+        internal System.Windows.Forms.TextBox Code_Hesab;
+        internal System.Windows.Forms.Label BTi;
+        internal System.Windows.Forms.TextBox Name_Hesab;
+        internal System.Windows.Forms.DataGridView Dv;
+        internal System.Windows.Forms.Label Label2;
+        internal System.Windows.Forms.Label Id_Code;
+        internal System.Windows.Forms.Label Label1;
+        internal System.Windows.Forms.Label Label3;
+        internal System.Windows.Forms.Button button_02;
+    }
