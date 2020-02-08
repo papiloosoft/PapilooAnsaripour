@@ -94,3 +94,5 @@ C:\Users\Amir\Desktop\Develop\PapilooAnsaripour\Ansaripour\obj\x86\Debug\Ansarip
 C:\Users\Amir\Desktop\Develop\PapilooAnsaripour\Ansaripour\obj\x86\Debug\Ansaripour.Warranty_Document.resources
 C:\Users\Amir\Desktop\Develop\PapilooAnsaripour\Ansaripour\obj\x86\Debug\Ansaripour.csproj.GenerateResource.cache
 C:\Users\Amir\Desktop\Develop\PapilooAnsaripour\Ansaripour\obj\x86\Debug\پاپیلو.exe.licenses
+C:\Users\Amir\Desktop\Develop\C#\PapilooAnsaripour\Ansaripour\bin\Debug\پاپیلو.exe.config
+C:\Users\Amir\Desktop\Develop\C#\PapilooAnsaripour\Ansaripour\obj\x86\Debug\Ansaripour.csproj.ResolveComReference.cache
