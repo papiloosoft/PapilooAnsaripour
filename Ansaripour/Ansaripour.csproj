@@ -185,6 +185,8 @@
     <Compile Include="Order_Add.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Pricing.cs" />
+    <Compile Include="Reception.cs" />
     <Compile Include="Rtl_Search.Designer.cs">
       <DependentUpon>Rtl_Search.cs</DependentUpon>
     </Compile>

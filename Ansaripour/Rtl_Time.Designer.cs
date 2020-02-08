@@ -1,5 +1,4 @@
-﻿//INSTANT C# NOTE: Formerly VB project-level imports:
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Data;
@@ -62,7 +61,6 @@ namespace Ansaripour
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
-//INSTANT C# NOTE: Converted design-time event handler wireups:
 			S_Time.Leave += new System.EventHandler(S_Time_Leave);
 			S_Time.TextChanged += new System.EventHandler(S_Time_TextChanged);
 		}
