@@ -147,15 +147,148 @@ namespace Ansaripour
 			this.Search_B.Name = "Search_B";
 			this.Search_B.Size = new System.Drawing.Size(61, 22);
 			this.Search_B.Text = "جستجو";
-			//
-			//B_Excel
-			//
-			this.B_Excel.Image = (System.Drawing.Image)resources.GetObject("B_Excel.Image");
-			this.B_Excel.ImageTransparentColor = System.Drawing.Color.Magenta;
+            //
+            //Search_B
+            //
+            this.Search_B.Image = (System.Drawing.Image)resources.GetObject("Search_B.Image");
+            this.Search_B.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.Search_B.Name = "Search_B";
+            this.Search_B.Size = new System.Drawing.Size(61, 22);
+            this.Search_B.Text = "جستجو";
+            //
+            //B_Excel
+            //
+            this.B_Excel.Image = (System.Drawing.Image)resources.GetObject("B_Excel.Image");
+            this.B_Excel.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.B_Excel.Name = "B_Excel";
+            this.B_Excel.Size = new System.Drawing.Size(54, 22);
+            this.B_Excel.Text = "اکسل";
+            //
+            //ToolStripButton1
+            //
+            this.ToolStripButton1.Image = (System.Drawing.Image)resources.GetObject("ToolStripButton1.Image");
+            this.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.ToolStripButton1.Name = "ToolStripButton1";
+            this.ToolStripButton1.Size = new System.Drawing.Size(48, 22);
+            this.ToolStripButton1.Text = "چاپ";
+            //
+            //Abort_B
+            //
+            this.Abort_B.Image = (System.Drawing.Image)resources.GetObject("Abort_B.Image");
+            this.Abort_B.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.Abort_B.Name = "Abort_B";
+            this.Abort_B.Size = new System.Drawing.Size(64, 22);
+            this.Abort_B.Text = "انصراف";
+            //
+            //SplitContainer1
+            //
+            this.SplitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SplitContainer1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)178);
+            this.SplitContainer1.Location = new System.Drawing.Point(0, 0);
+            this.SplitContainer1.Name = "SplitContainer1";
+            this.SplitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            //
+            //SplitContainer1.Panel1
+            //
+            this.SplitContainer1.Panel1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.SplitContainer1.Panel1.Controls.Add(this.Base_Information_Name);
+            this.SplitContainer1.Panel1.Controls.Add(this.Base_Information_Code);
+            this.SplitContainer1.Panel1.Controls.Add(this.ToolStrip1);
+            this.SplitContainer1.Panel1.Controls.Add(this.Label3);
+            this.SplitContainer1.Panel1.Controls.Add(this.Label1);
+            this.SplitContainer1.Panel1.Font = new System.Drawing.Font("Tahoma", 12.0F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)178);
+            this.SplitContainer1.Panel1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            //
+            //SplitContainer1.Panel2
+            //
+            this.SplitContainer1.Panel2.Controls.Add(this.DV);
+            this.SplitContainer1.Panel2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.SplitContainer1.Size = new System.Drawing.Size(968, 526);
+            this.SplitContainer1.SplitterDistance = 72;
+            this.SplitContainer1.TabIndex = 65;
+            //
+            //Base_Information_Name
+            //
+            this.Base_Information_Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)177);
+            this.Base_Information_Name.Location = new System.Drawing.Point(3, 34);
+            this.Base_Information_Name.Name = "Base_Information_Name";
+            this.Base_Information_Name.Size = new System.Drawing.Size(698, 31);
+            this.Base_Information_Name.TabIndex = 1;
+            //
+            //Base_Information_Code
+            //
+            this.Base_Information_Code.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)177);
+            this.Base_Information_Code.Location = new System.Drawing.Point(786, 34);
+            this.Base_Information_Code.Name = "Base_Information_Code";
+            this.Base_Information_Code.Size = new System.Drawing.Size(121, 31);
+            this.Base_Information_Code.TabIndex = 0;
+            //
+            //DV
+            //
+            this.DV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.DV.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            DataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)178);
+            DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DV.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1;
+            this.DV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            DataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)178);
+            DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DV.DefaultCellStyle = DataGridViewCellStyle2;
+            this.DV.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.DV.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
+            this.DV.Location = new System.Drawing.Point(0, 0);
+            this.DV.Name = "DV";
+            this.DV.Size = new System.Drawing.Size(968, 450);
+            this.DV.TabIndex = 0;
+            //
+            //Base_Information
+            //
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12.0F, 25.0F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ClientSize = new System.Drawing.Size(968, 526);
+            this.Controls.Add(this.SplitContainer1);
+            this.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)178);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Margin = new System.Windows.Forms.Padding(5, 7, 5, 7);
+            this.Name = "Base_Information";
+            this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "درخت حسابها";
+            this.ToolStrip1.ResumeLayout(false);
+            this.ToolStrip1.PerformLayout();
+            this.SplitContainer1.Panel1.ResumeLayout(false);
+            this.SplitContainer1.Panel1.PerformLayout();
+            this.SplitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)this.SplitContainer1).EndInit();
+            this.SplitContainer1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)this.DV).EndInit();
+            this.ResumeLayout(false);
 
-//====================================================================================================
-//End of the allowed output for the Free Edition of Instant C#.
-
-//To purchase the Premium Edition, visit our website:
-//https://www.tangiblesoftwaresolutions.com/order/order-instant-csharp.html
-//====================================================================================================
+        }
+        internal System.Windows.Forms.Label Label1;
+        internal System.Windows.Forms.Label Label3;
+        internal System.Windows.Forms.ToolStrip ToolStrip1;
+        internal System.Windows.Forms.ToolStripButton New_B;
+        internal System.Windows.Forms.ToolStripButton Edit_B;
+        internal System.Windows.Forms.ToolStripButton Delet_B;
+        internal System.Windows.Forms.ToolStripButton Save_B;
+        internal System.Windows.Forms.ToolStripButton Search_B;
+        internal System.Windows.Forms.ToolStripButton ToolStripButton1;
+        internal System.Windows.Forms.ToolStripButton Abort_B;
+        internal System.Windows.Forms.SplitContainer SplitContainer1;
+        internal System.Windows.Forms.DataGridView DV;
+        internal System.Windows.Forms.ToolStripButton B_Excel;
+        internal System.Windows.Forms.TextBox Base_Information_Name;
+        internal System.Windows.Forms.TextBox Base_Information_Code;
+    }
