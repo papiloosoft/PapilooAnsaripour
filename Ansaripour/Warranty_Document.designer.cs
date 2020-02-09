@@ -51,11 +51,11 @@ namespace Ansaripour
             this.Label16 = new System.Windows.Forms.Label();
             this.Label3 = new System.Windows.Forms.Label();
             this.Label6 = new System.Windows.Forms.Label();
-            this.Warranty_Document_Date = new Ansaripour.Rtl_Date();
-            this.Warranty_Document_Extended_Date = new Ansaripour.Rtl_Date();
-            this.Warranty_Document_Due_Date = new Ansaripour.Rtl_Date();
-            this.Warranty_Document_Refund_Date = new Ansaripour.Rtl_Date();
-            this.Warranty_Document_Contract_Date = new Ansaripour.Rtl_Date();
+            //this.Warranty_Document_Date = new Ansaripour.Rtl_Date();
+            //this.Warranty_Document_Extended_Date = new Ansaripour.Rtl_Date();
+            //this.Warranty_Document_Due_Date = new Ansaripour.Rtl_Date();
+            //this.Warranty_Document_Refund_Date = new Ansaripour.Rtl_Date();
+            //this.Warranty_Document_Contract_Date = new Ansaripour.Rtl_Date();
             this.Label20 = new System.Windows.Forms.Label();
             this.Label2 = new System.Windows.Forms.Label();
             this.B_Warranty_Document_Subscription = new System.Windows.Forms.Button();
@@ -103,9 +103,9 @@ namespace Ansaripour
             this.GroupBox1 = new System.Windows.Forms.GroupBox();
             this.Az_Ta = new System.Windows.Forms.Label();
             this.Label19 = new System.Windows.Forms.Label();
-            this.Warranty_Document_From_Date = new Ansaripour.Rtl_Date();
-            this.Warranty_Document_Until_Date = new Ansaripour.Rtl_Date();
-            this.Warranty_Document_No_Date = new Ansaripour.Rtl_Date();
+            //this.Warranty_Document_From_Date = new Ansaripour.Rtl_Date();
+            //this.Warranty_Document_Until_Date = new Ansaripour.Rtl_Date();
+            //this.Warranty_Document_No_Date = new Ansaripour.Rtl_Date();
             this.DV = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)this.SplitContainer1).BeginInit();
             this.SplitContainer1.Panel1.SuspendLayout();
@@ -132,11 +132,11 @@ namespace Ansaripour
             this.SplitContainer1.Panel1.Controls.Add(this.Label16);
             this.SplitContainer1.Panel1.Controls.Add(this.Label3);
             this.SplitContainer1.Panel1.Controls.Add(this.Label6);
-            this.SplitContainer1.Panel1.Controls.Add(this.Warranty_Document_Date);
-            this.SplitContainer1.Panel1.Controls.Add(this.Warranty_Document_Extended_Date);
-            this.SplitContainer1.Panel1.Controls.Add(this.Warranty_Document_Due_Date);
-            this.SplitContainer1.Panel1.Controls.Add(this.Warranty_Document_Refund_Date);
-            this.SplitContainer1.Panel1.Controls.Add(this.Warranty_Document_Contract_Date);
+//            this.SplitContainer1.Panel1.Controls.Add(this.Warranty_Document_Date);
+//            this.SplitContainer1.Panel1.Controls.Add(this.Warranty_Document_Extended_Date);
+  //          this.SplitContainer1.Panel1.Controls.Add(this.Warranty_Document_Due_Date);
+    //        this.SplitContainer1.Panel1.Controls.Add(this.Warranty_Document_Refund_Date);
+      //      this.SplitContainer1.Panel1.Controls.Add(this.Warranty_Document_Contract_Date);
             this.SplitContainer1.Panel1.Controls.Add(this.Label20);
             this.SplitContainer1.Panel1.Controls.Add(this.Label2);
             this.SplitContainer1.Panel1.Controls.Add(this.B_Warranty_Document_Subscription);
@@ -166,7 +166,7 @@ namespace Ansaripour
             this.SplitContainer1.Panel1.Controls.Add(this.Label11);
             this.SplitContainer1.Panel1.Controls.Add(this.Label8);
             this.SplitContainer1.Panel1.Controls.Add(this.GroupBox1);
-            this.SplitContainer1.Panel1.Controls.Add(this.Warranty_Document_No_Date);
+//            this.SplitContainer1.Panel1.Controls.Add(this.Warranty_Document_No_Date);
             this.SplitContainer1.Panel1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             //
             //SplitContainer1.Panel2
@@ -236,68 +236,68 @@ namespace Ansaripour
             //
             //Warranty_Document_Date
             //
-            this.Warranty_Document_Date.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.Warranty_Document_Date.AutoSize = true;
-            this.Warranty_Document_Date.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Warranty_Document_Date.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)178);
-            this.Warranty_Document_Date.Location = new System.Drawing.Point(253, 75);
-            this.Warranty_Document_Date.Name = "Warranty_Document_Date";
-            this.Warranty_Document_Date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Warranty_Document_Date.Size = new System.Drawing.Size(121, 32);
-            this.Warranty_Document_Date.T_D = "";
-            this.Warranty_Document_Date.TabIndex = 5;
+//            this.Warranty_Document_Date.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+//            this.Warranty_Document_Date.AutoSize = true;
+//            this.Warranty_Document_Date.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            //this.Warranty_Document_Date.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)178);
+            //this.Warranty_Document_Date.Location = new System.Drawing.Point(253, 75);
+            //this.Warranty_Document_Date.Name = "Warranty_Document_Date";
+            //this.Warranty_Document_Date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            //this.Warranty_Document_Date.Size = new System.Drawing.Size(121, 32);
+            //this.Warranty_Document_Date.T_D = "";
+            //this.Warranty_Document_Date.TabIndex = 5;
             //
             //Warranty_Document_Extended_Date
             //
-            this.Warranty_Document_Extended_Date.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.Warranty_Document_Extended_Date.AutoSize = true;
-            this.Warranty_Document_Extended_Date.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Warranty_Document_Extended_Date.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)178);
-            this.Warranty_Document_Extended_Date.Location = new System.Drawing.Point(252, 110);
-            this.Warranty_Document_Extended_Date.Name = "Warranty_Document_Extended_Date";
-            this.Warranty_Document_Extended_Date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Warranty_Document_Extended_Date.Size = new System.Drawing.Size(121, 32);
-            this.Warranty_Document_Extended_Date.T_D = "";
-            this.Warranty_Document_Extended_Date.TabIndex = 9;
+            //this.Warranty_Document_Extended_Date.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            //this.Warranty_Document_Extended_Date.AutoSize = true;
+            //this.Warranty_Document_Extended_Date.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            //this.Warranty_Document_Extended_Date.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)178);
+            //this.Warranty_Document_Extended_Date.Location = new System.Drawing.Point(252, 110);
+            //this.Warranty_Document_Extended_Date.Name = "Warranty_Document_Extended_Date";
+            //this.Warranty_Document_Extended_Date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            //this.Warranty_Document_Extended_Date.Size = new System.Drawing.Size(121, 32);
+            //this.Warranty_Document_Extended_Date.T_D = "";
+            //this.Warranty_Document_Extended_Date.TabIndex = 9;
             //
             //Warranty_Document_Due_Date
             //
-            this.Warranty_Document_Due_Date.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.Warranty_Document_Due_Date.AutoSize = true;
-            this.Warranty_Document_Due_Date.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Warranty_Document_Due_Date.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)178);
-            this.Warranty_Document_Due_Date.Location = new System.Drawing.Point(14, 75);
-            this.Warranty_Document_Due_Date.Name = "Warranty_Document_Due_Date";
-            this.Warranty_Document_Due_Date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Warranty_Document_Due_Date.Size = new System.Drawing.Size(121, 32);
-            this.Warranty_Document_Due_Date.T_D = "";
-            this.Warranty_Document_Due_Date.TabIndex = 6;
+            //this.Warranty_Document_Due_Date.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            //this.Warranty_Document_Due_Date.AutoSize = true;
+            //this.Warranty_Document_Due_Date.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            //this.Warranty_Document_Due_Date.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)178);
+            //this.Warranty_Document_Due_Date.Location = new System.Drawing.Point(14, 75);
+            //this.Warranty_Document_Due_Date.Name = "Warranty_Document_Due_Date";
+            //this.Warranty_Document_Due_Date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            //this.Warranty_Document_Due_Date.Size = new System.Drawing.Size(121, 32);
+            //this.Warranty_Document_Due_Date.T_D = "";
+            //this.Warranty_Document_Due_Date.TabIndex = 6;
             //
             //Warranty_Document_Refund_Date
             //
-            this.Warranty_Document_Refund_Date.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.Warranty_Document_Refund_Date.AutoSize = true;
-            this.Warranty_Document_Refund_Date.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Warranty_Document_Refund_Date.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)178);
-            this.Warranty_Document_Refund_Date.Location = new System.Drawing.Point(14, 110);
-            this.Warranty_Document_Refund_Date.Name = "Warranty_Document_Refund_Date";
-            this.Warranty_Document_Refund_Date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Warranty_Document_Refund_Date.Size = new System.Drawing.Size(121, 32);
-            this.Warranty_Document_Refund_Date.T_D = "";
-            this.Warranty_Document_Refund_Date.TabIndex = 10;
+            //this.Warranty_Document_Refund_Date.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            //this.Warranty_Document_Refund_Date.AutoSize = true;
+            //this.Warranty_Document_Refund_Date.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            //this.Warranty_Document_Refund_Date.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)178);
+            //this.Warranty_Document_Refund_Date.Location = new System.Drawing.Point(14, 110);
+            //this.Warranty_Document_Refund_Date.Name = "Warranty_Document_Refund_Date";
+            //this.Warranty_Document_Refund_Date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            //this.Warranty_Document_Refund_Date.Size = new System.Drawing.Size(121, 32);
+            //this.Warranty_Document_Refund_Date.T_D = "";
+            //this.Warranty_Document_Refund_Date.TabIndex = 10;
             //
             //Warranty_Document_Contract_Date
             //
-            this.Warranty_Document_Contract_Date.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.Warranty_Document_Contract_Date.AutoSize = true;
-            this.Warranty_Document_Contract_Date.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Warranty_Document_Contract_Date.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)178);
-            this.Warranty_Document_Contract_Date.Location = new System.Drawing.Point(497, 110);
-            this.Warranty_Document_Contract_Date.Name = "Warranty_Document_Contract_Date";
-            this.Warranty_Document_Contract_Date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Warranty_Document_Contract_Date.Size = new System.Drawing.Size(121, 32);
-            this.Warranty_Document_Contract_Date.T_D = "";
-            this.Warranty_Document_Contract_Date.TabIndex = 8;
+            //this.Warranty_Document_Contract_Date.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            //this.Warranty_Document_Contract_Date.AutoSize = true;
+            //this.Warranty_Document_Contract_Date.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            //this.Warranty_Document_Contract_Date.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)178);
+            //this.Warranty_Document_Contract_Date.Location = new System.Drawing.Point(497, 110);
+            //this.Warranty_Document_Contract_Date.Name = "Warranty_Document_Contract_Date";
+            //this.Warranty_Document_Contract_Date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            //this.Warranty_Document_Contract_Date.Size = new System.Drawing.Size(121, 32);
+            //this.Warranty_Document_Contract_Date.T_D = "";
+            //this.Warranty_Document_Contract_Date.TabIndex = 8;
             //
             //Label20
             //
@@ -711,8 +711,8 @@ namespace Ansaripour
             //
             this.GroupBox1.Controls.Add(this.Az_Ta);
             this.GroupBox1.Controls.Add(this.Label19);
-            this.GroupBox1.Controls.Add(this.Warranty_Document_From_Date);
-            this.GroupBox1.Controls.Add(this.Warranty_Document_Until_Date);
+//            this.GroupBox1.Controls.Add(this.Warranty_Document_From_Date);
+//            this.GroupBox1.Controls.Add(this.Warranty_Document_Until_Date);
             this.GroupBox1.Location = new System.Drawing.Point(302, 24);
             this.GroupBox1.Name = "GroupBox1";
             this.GroupBox1.Size = new System.Drawing.Size(419, 46);
@@ -743,42 +743,42 @@ namespace Ansaripour
             //
             //Warranty_Document_From_Date
             //
-            this.Warranty_Document_From_Date.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.Warranty_Document_From_Date.AutoSize = true;
-            this.Warranty_Document_From_Date.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Warranty_Document_From_Date.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)178);
-            this.Warranty_Document_From_Date.Location = new System.Drawing.Point(137, 11);
-            this.Warranty_Document_From_Date.Name = "Warranty_Document_From_Date";
-            this.Warranty_Document_From_Date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Warranty_Document_From_Date.Size = new System.Drawing.Size(108, 32);
-            this.Warranty_Document_From_Date.T_D = "";
-            this.Warranty_Document_From_Date.TabIndex = 0;
+//            this.Warranty_Document_From_Date.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+//            this.Warranty_Document_From_Date.AutoSize = true;
+            //this.Warranty_Document_From_Date.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            //this.Warranty_Document_From_Date.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)178);
+            //this.Warranty_Document_From_Date.Location = new System.Drawing.Point(137, 11);
+            //this.Warranty_Document_From_Date.Name = "Warranty_Document_From_Date";
+            //this.Warranty_Document_From_Date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            //this.Warranty_Document_From_Date.Size = new System.Drawing.Size(108, 32);
+            //this.Warranty_Document_From_Date.T_D = "";
+            //this.Warranty_Document_From_Date.TabIndex = 0;
             //
             //Warranty_Document_Until_Date
             //
-            this.Warranty_Document_Until_Date.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.Warranty_Document_Until_Date.AutoSize = true;
-            this.Warranty_Document_Until_Date.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Warranty_Document_Until_Date.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)178);
-            this.Warranty_Document_Until_Date.Location = new System.Drawing.Point(4, 10);
-            this.Warranty_Document_Until_Date.Name = "Warranty_Document_Until_Date";
-            this.Warranty_Document_Until_Date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Warranty_Document_Until_Date.Size = new System.Drawing.Size(121, 32);
-            this.Warranty_Document_Until_Date.T_D = "";
-            this.Warranty_Document_Until_Date.TabIndex = 1;
-            //
+            //this.Warranty_Document_Until_Date.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            //this.Warranty_Document_Until_Date.AutoSize = true;
+            //this.Warranty_Document_Until_Date.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            //this.Warranty_Document_Until_Date.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)178);
+            //this.Warranty_Document_Until_Date.Location = new System.Drawing.Point(4, 10);
+            //this.Warranty_Document_Until_Date.Name = "Warranty_Document_Until_Date";
+            //this.Warranty_Document_Until_Date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            //this.Warranty_Document_Until_Date.Size = new System.Drawing.Size(121, 32);
+            //this.Warranty_Document_Until_Date.T_D = "";
+            //this.Warranty_Document_Until_Date.TabIndex = 1;
+            ////
             //Warranty_Document_No_Date
             //
-            this.Warranty_Document_No_Date.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.Warranty_Document_No_Date.AutoSize = true;
-            this.Warranty_Document_No_Date.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Warranty_Document_No_Date.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)178);
-            this.Warranty_Document_No_Date.Location = new System.Drawing.Point(1008, 75);
-            this.Warranty_Document_No_Date.Name = "Warranty_Document_No_Date";
-            this.Warranty_Document_No_Date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Warranty_Document_No_Date.Size = new System.Drawing.Size(121, 32);
-            this.Warranty_Document_No_Date.T_D = "";
-            this.Warranty_Document_No_Date.TabIndex = 3;
+            //this.Warranty_Document_No_Date.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            //this.Warranty_Document_No_Date.AutoSize = true;
+            //this.Warranty_Document_No_Date.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            //this.Warranty_Document_No_Date.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)178);
+            //this.Warranty_Document_No_Date.Location = new System.Drawing.Point(1008, 75);
+            //this.Warranty_Document_No_Date.Name = "Warranty_Document_No_Date";
+            //this.Warranty_Document_No_Date.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            //this.Warranty_Document_No_Date.Size = new System.Drawing.Size(121, 32);
+            //this.Warranty_Document_No_Date.T_D = "";
+            //this.Warranty_Document_No_Date.TabIndex = 3;
             //
             //DV
             //

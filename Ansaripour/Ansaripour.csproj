@@ -187,6 +187,10 @@
     </Compile>
     <Compile Include="Pricing.cs" />
     <Compile Include="Reception.cs" />
+    <Compile Include="Rtl_Date.cs" />
+    <Compile Include="Rtl_Date.Designer.cs">
+      <DependentUpon>Rtl_Date.cs</DependentUpon>
+    </Compile>
     <Compile Include="Rtl_Search.Designer.cs">
       <DependentUpon>Rtl_Search.cs</DependentUpon>
     </Compile>
@@ -198,12 +202,6 @@
     </Compile>
     <Compile Include="Seasonal_Sales.cs">
       <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Rtl_Date.Designer.cs">
-      <DependentUpon>Rtl_Date.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Rtl_Date.cs">
-      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
@@ -437,14 +435,14 @@
     <EmbeddedResource Include="Order_Add.resx">
       <DependentUpon>Order_Add.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Rtl_Date.resx">
+      <DependentUpon>Rtl_Date.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Rtl_Search.resx">
       <DependentUpon>Rtl_Search.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Seasonal_Sales.resx">
       <DependentUpon>Seasonal_Sales.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Rtl_Date.resx">
-      <DependentUpon>Rtl_Date.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
