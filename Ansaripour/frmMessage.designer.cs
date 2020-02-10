@@ -49,14 +49,14 @@ namespace Ansaripour
             this.lblTitle = new System.Windows.Forms.Label();
             this.txtMessage = new System.Windows.Forms.TextBox();
             this.imlIcons = new System.Windows.Forms.ImageList(this.components);
-            ((System.ComponentModel.ISupportInitialize)this.picIcon).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picIcon)).BeginInit();
             this.SuspendLayout();
-            //
-            //button_03
-            //
+            // 
+            // button_03
+            // 
             this.button_03.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.button_03.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
-            this.button_03.Font = new System.Drawing.Font("Tahoma", 12.0F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)0);
+            this.button_03.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_03.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button_03.ImageIndex = 2;
             this.button_03.ImageList = this.imlButtons;
@@ -67,22 +67,22 @@ namespace Ansaripour
             this.button_03.Text = "button#3";
             this.button_03.UseVisualStyleBackColor = false;
             this.button_03.Visible = false;
-            //
-            //imlButtons
-            //
-            this.imlButtons.ImageStream = (System.Windows.Forms.ImageListStreamer)resources.GetObject("imlButtons.ImageStream");
+            // 
+            // imlButtons
+            // 
+            this.imlButtons.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imlButtons.ImageStream")));
             this.imlButtons.TransparentColor = System.Drawing.Color.Transparent;
             this.imlButtons.Images.SetKeyName(0, "button_ok.png");
             this.imlButtons.Images.SetKeyName(1, "button_cancel.png");
             this.imlButtons.Images.SetKeyName(2, "exit_b.png");
             this.imlButtons.Images.SetKeyName(3, "button_reintent.png");
             this.imlButtons.Images.SetKeyName(4, "button_ignore.png");
-            //
-            //button_02
-            //
+            // 
+            // button_02
+            // 
             this.button_02.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.button_02.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
-            this.button_02.Font = new System.Drawing.Font("Tahoma", 12.0F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)0);
+            this.button_02.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_02.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button_02.ImageKey = "retry.png";
             this.button_02.Location = new System.Drawing.Point(132, 91);
@@ -92,12 +92,12 @@ namespace Ansaripour
             this.button_02.Text = "button#2";
             this.button_02.UseVisualStyleBackColor = false;
             this.button_02.Visible = false;
-            //
-            //button_01
-            //
+            // 
+            // button_01
+            // 
             this.button_01.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.button_01.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
-            this.button_01.Font = new System.Drawing.Font("Tahoma", 12.0F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)0);
+            this.button_01.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_01.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button_01.ImageIndex = 0;
             this.button_01.ImageList = this.imlButtons;
@@ -107,20 +107,20 @@ namespace Ansaripour
             this.button_01.TabIndex = 2;
             this.button_01.Text = "button#1";
             this.button_01.UseVisualStyleBackColor = false;
-            //
-            //picIcon
-            //
-            this.picIcon.Image = (System.Drawing.Image)resources.GetObject("picIcon.Image");
+            // 
+            // picIcon
+            // 
+            this.picIcon.Image = ((System.Drawing.Image)(resources.GetObject("picIcon.Image")));
             this.picIcon.Location = new System.Drawing.Point(1, 0);
             this.picIcon.Name = "picIcon";
             this.picIcon.Size = new System.Drawing.Size(54, 41);
             this.picIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picIcon.TabIndex = 3;
             this.picIcon.TabStop = false;
-            //
-            //lblTitle
-            //
-            this.lblTitle.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (byte)0);
+            // 
+            // lblTitle
+            // 
+            this.lblTitle.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.Blue;
             this.lblTitle.Location = new System.Drawing.Point(61, 0);
             this.lblTitle.Name = "lblTitle";
@@ -128,23 +128,12 @@ namespace Ansaripour
             this.lblTitle.TabIndex = 4;
             this.lblTitle.Text = "Título";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            //
-            //txtMessage
-            //
+            // 
+            // txtMessage
+            // 
             this.txtMessage.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.txtMessage.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtMessage.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)0);
-            this.txtMessage.ForeColor = System.Drawing.Color.Green;
-            this.txtMessage.Location = new System.Drawing.Point(3, 45);
-            this.txtMessage.Multiline = true;
-            this.txtMessage.Name = "txtMessage";
-            this.txtMessage.ReadOnly = true;
-            //
-            //txtMessage
-            //
-            this.txtMessage.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.txtMessage.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtMessage.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)0);
+            this.txtMessage.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMessage.ForeColor = System.Drawing.Color.Green;
             this.txtMessage.Location = new System.Drawing.Point(3, 45);
             this.txtMessage.Multiline = true;
@@ -154,10 +143,10 @@ namespace Ansaripour
             this.txtMessage.TabIndex = 5;
             this.txtMessage.Text = "Mensaje...";
             this.txtMessage.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            //
-            //imlIcons
-            //
-            this.imlIcons.ImageStream = (System.Windows.Forms.ImageListStreamer)resources.GetObject("imlIcons.ImageStream");
+            // 
+            // imlIcons
+            // 
+            this.imlIcons.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imlIcons.ImageStream")));
             this.imlIcons.TransparentColor = System.Drawing.Color.Transparent;
             this.imlIcons.Images.SetKeyName(0, "shield_ok.png");
             this.imlIcons.Images.SetKeyName(1, "shield_info.png");
@@ -179,13 +168,13 @@ namespace Ansaripour
             this.imlIcons.Images.SetKeyName(17, "shield_search.png");
             this.imlIcons.Images.SetKeyName(18, "shield_zoom.png");
             this.imlIcons.Images.SetKeyName(19, "Marvin-icon_print.png");
-            //
-            //frmMessage
-            //
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6.0F, 13.0F);
+            // 
+            // frmMessage
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(368, 121);
+            this.ClientSize = new System.Drawing.Size(364, 117);
             this.ControlBox = false;
             this.Controls.Add(this.button_03);
             this.Controls.Add(this.button_02);
@@ -203,7 +192,8 @@ namespace Ansaripour
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmMessage";
-            ((System.ComponentModel.ISupportInitialize)this.picIcon).EndInit();
+            this.Load += new System.EventHandler(this.frmMessage_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.picIcon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

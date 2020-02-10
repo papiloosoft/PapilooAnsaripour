@@ -17,6 +17,7 @@ namespace Ansaripour
 {
     public partial class Pictures : System.Windows.Forms.Form
     {
+        //sddsdsdsd
         //Form overrides dispose to clean up the component list.
         [System.Diagnostics.DebuggerNonUserCode()]
         protected override void Dispose(bool disposing)
